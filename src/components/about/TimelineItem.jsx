@@ -16,7 +16,7 @@ export default function TimelineItem({ period, role, company, type, i }) {
       ref={ref}
       className="opacity-0 relative pl-5 pb-8 last:pb-0 border-l border-[#1a1a1a] group hover:border-[#c8f55a] transition-colors duration-500"
     >
-      <div className="absolute -left-[4.5px] top-0 w-2 h-2 border border-[#2a2a2a] bg-[#0a0a0a] group-hover:bg-[#c8f55a] group-hover:border-[#c8f55a] transition-all duration-300" />
+      <div className="absolute left-[-4.5px] top-0 w-2 h-2 border border-[#2a2a2a] bg-[#0a0a0a] group-hover:bg-[#c8f55a] group-hover:border-[#c8f55a] transition-all duration-300" />
       <span className="font-mono text-[10px] tracking-[0.15em] uppercase text-[#2a2a2a] mb-2 block">
         {period}
       </span>

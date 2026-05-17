@@ -40,7 +40,7 @@ export default function SkillGroup({ group, index }) {
     <div ref={ref} className="opacity-0">
       <div className="flex items-center gap-3 mb-4 pb-3 border-b" style={{ borderColor: "#111" }}>
         <span
-          className="font-mono text-[11px] font-medium tracking-[0.1em]"
+          className="font-mono text-[11px] font-medium tracking-widest"
           style={{ color: group.color }}
         >
           {group.icon}

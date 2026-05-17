@@ -108,7 +108,7 @@ export default function Skills() {
             <p className="font-display font-semibold text-[16px] text-[#f0ece3] mb-1">
               Always learning something new.
             </p>
-            <p className="font-mono text-[11px] tracking-[0.1em] text-[#2a2a2a]">
+            <p className="font-mono text-[11px] tracking-widest text-[#2a2a2a]">
               Currently exploring: Three.js · tRPC · Bun · Astro
             </p>
           </div>

@@ -40,7 +40,7 @@ export default function SkillChip({ name, level, note, color }) {
               ))}
             </div>
             <span
-              className="font-mono text-[9px] tracking-[0.1em] uppercase transition-colors duration-300"
+              className="font-mono text-[9px] tracking-widest uppercase transition-colors duration-300"
               style={{ color: hovered ? color : "#1e1e1e" }}
             >
               {level}

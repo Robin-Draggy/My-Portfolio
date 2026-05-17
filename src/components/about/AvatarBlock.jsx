@@ -10,9 +10,9 @@ export default function AvatarBlock() {
 
   return (
     <div ref={imgBlockRef} className="opacity-0 lg:self-start">
-      <div className="relative w-full max-w-[280px] mx-auto lg:mx-0">
+      <div className="relative w-full max-w-70 mx-auto lg:mx-0">
         <div
-          className="w-full aspect-[3/4] border border-[#1a1a1a] flex flex-col items-center justify-center gap-3 relative overflow-hidden"
+          className="w-full aspect-3/4 border border-[#1a1a1a] flex flex-col items-center justify-center gap-3 relative overflow-hidden"
           style={{ background: "#0d0d0d" }}
         >
           <span

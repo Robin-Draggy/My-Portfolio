@@ -136,7 +136,7 @@ export default function Hero() {
             <span className="font-mono text-[10px] sm:text-[11px] tracking-[0.3em] uppercase text-[#c8f55a]">
               Frontend Engineer
             </span>
-            <span className="h-px flex-1 max-w-[60px] bg-[#c8f55a] opacity-40" />
+            <span className="h-px flex-1 max-w-15 bg-[#c8f55a] opacity-40" />
             <span className="font-mono text-[10px] sm:text-[11px] tracking-[0.2em] uppercase text-[#2e2e2e]">
               2 yrs exp
             </span>

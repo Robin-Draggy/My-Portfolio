@@ -55,7 +55,7 @@ export default function OrbitDiagram() {
       viewBox="0 0 400 400"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="w-full max-w-[320px] sm:max-w-[360px] lg:max-w-[400px] mx-auto"
+      className="w-full max-w-[320px] sm:max-w-90 lg:max-w-100 mx-auto"
     >
       <circle cx={CX} cy={CY} r={R_OUTER} stroke="#1a1a1a" strokeWidth="1" strokeDasharray="4 8" />
       <circle cx={CX} cy={CY} r={R_INNER} stroke="#1e1e1e" strokeWidth="1" />
