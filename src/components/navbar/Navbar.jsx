@@ -167,10 +167,10 @@ export default function Navbar() {
           {/* desktop CTA */}
           <div className="hidden md:flex items-center gap-3 shrink-0">
             <a
-              href="https://github.com/mamun-swe"
+              href="https://github.com/Robin-Draggy"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-mono text-[10px] tracking-[0.15em] uppercase text-[#2a2a2a] hover:text-[#c8f55a] transition-colors duration-300"
+              className="font-mono text-[10px] tracking-[0.15em] uppercase text-white/70 hover:text-[#c8f55a] transition-colors duration-300"
             >
               GitHub ↗
             </a>
