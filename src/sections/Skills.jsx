@@ -102,25 +102,6 @@ export default function Skills() {
             <SkillGroup key={group.id} group={group} index={i} />
           ))}
         </div>
-
-        <div className="mt-20 sm:mt-28 pt-10 border-t border-[#111] flex flex-col sm:flex-row sm:items-center justify-between gap-6">
-          <div>
-            <p className="font-display font-semibold text-[16px] text-[#f0ece3] mb-1">
-              Always learning something new.
-            </p>
-            <p className="font-mono text-[11px] tracking-widest text-[#2a2a2a]">
-              Currently exploring: Three.js · tRPC · Bun · Astro
-            </p>
-          </div>
-          <a
-            href="https://github.com/mamun-swe"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 font-mono text-[11px] tracking-[0.2em] uppercase text-[#2a2a2a] border border-[#1a1a1a] px-6 py-3 hover:text-[#c8f55a] hover:border-[#c8f55a] transition-colors duration-300 w-fit"
-          >
-            See my code on GitHub ↗
-          </a>
-        </div>
       </div>
     </section>
   );

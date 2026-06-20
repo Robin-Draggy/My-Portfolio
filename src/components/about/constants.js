@@ -25,13 +25,13 @@ export const TRAITS = [
 
 export const TIMELINE = [
   {
-    period: "Nov 2024 — Now",
+    period: "Nov 2024 — April 2026",
     role: "Junior Frontend Developer",
     company: "Visionary Tech Solution",
     type: "Full-time",
   },
   {
-    period: "Aug — Oct 2024",
+    period: "Aug 2024 — Oct 2024",
     role: "Frontend Developer",
     company: "GrapView",
     type: "Internship",
